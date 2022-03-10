@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap');
 *{
+    margin: 0;
   box-sizing: border-box;
   font-family: 'Poppins',sans-serif;
 }
@@ -84,3 +85,37 @@
     top: 50%;
     width: 625px;
 }
+
+.infoicon{
+    width:25px;
+    height: 25px;
+    user-select: none;
+}
+
+.selfbox{
+    box-shadow: 0 0px 10px rgb(0 0 0 / 0.2);
+    user-select: none;
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    background-color: #2C2F33;
+    border-radius: 10px;
+    width: 160px;
+    height: 35px;
+}
+
+.selficon{
+    user-select: none;
+    width: 35px;
+    height: 35px;
+}
+
+.selficonyotu{
+    position: absolute;
+    transform: translate(5px, -50%);
+    top: 50%;
+    user-select: none;
+    width: 35px;
+    height: 25px;
+}
+
