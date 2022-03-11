@@ -56,7 +56,7 @@
 }
 
 .ui{
-    display: flex;
+    user-select: none;
     top: 530px;
     border: 0px;
     box-shadow: 0 0px 10px rgb(0 0 0 / 0.2);
@@ -80,6 +80,7 @@
 }
 
 .uicontoen{
+    user-select: text;
     position: absolute;
     transform: translate(125px, -50%);
     top: 50%;
