@@ -223,3 +223,14 @@ html {
     bottom: 15px;
     right: 15px;
   }
+
+  .statsdone{
+    text-align: center;
+    border-top-left-radius: 15px;
+    position: absolute;
+    bottom: 0px;
+    right: 0px;
+    width: 100px;
+    height: 25px;
+    background-color: green;
+  }
