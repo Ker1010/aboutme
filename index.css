@@ -87,6 +87,19 @@ html {
     transform: translate(-50%, -50%);
 }
 
+.ui2{
+  background-color: #484b50;
+  user-select: none;
+  top: 750px;
+  border: 0px;
+  box-shadow: 0 0px 10px rgb(0 0 0 / 0.2);
+  width: 750px;
+  height: 200px;
+  border-radius: 10px;
+  left: 50%;
+  position: absolute;
+  transform: translate(-50%, -50%);
+}
 
 .uititle{
     user-select: none;
@@ -233,4 +246,15 @@ html {
     width: 100px;
     height: 25px;
     background-color: green;
+  }
+
+  .statsplan{
+    text-align: center;
+    border-top-left-radius: 15px;
+    position: absolute;
+    bottom: 0px;
+    right: 0px;
+    width: 100px;
+    height: 25px;
+    background-color: salmon;
   }
