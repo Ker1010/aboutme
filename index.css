@@ -258,3 +258,9 @@ html {
     height: 25px;
     background-color: salmon;
   }
+
+  .versions{
+    position: absolute;
+    right: 3px;
+    bottom: 0px;
+  }
