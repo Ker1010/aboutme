@@ -79,7 +79,7 @@ html {
 .ui2{
   background-color: #484b50;
   user-select: none;
-  top: 750px;
+  top: 970px;
   border: 0px;
   box-shadow: 0 0px 10px rgb(0 0 0 / 0.2);
   width: 750px;
@@ -93,7 +93,25 @@ html {
 .ui3{
   background-color: #484b50;
   user-select: none;
-  top: 970px;
+  top: 1190px;
+  border: 0px;
+  box-shadow: 0 0px 10px rgb(0 0 0 / 0.2);
+  width: 750px;
+  height: 200px;
+  border-radius: 10px;
+  left: 50%;
+  position: absolute;
+  transform: translate(-50%, -50%);
+}
+
+.ui4{
+  background-image: url(pizza.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-color: #484b50;
+  user-select: none;
+  top: 750px;
   border: 0px;
   box-shadow: 0 0px 10px rgb(0 0 0 / 0.2);
   width: 750px;
