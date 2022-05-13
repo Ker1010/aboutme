@@ -265,6 +265,7 @@ html {
   }
 
   .statsdone{
+    color: white;
     text-align: center;
     border-top-left-radius: 15px;
     position: absolute;
