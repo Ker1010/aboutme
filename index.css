@@ -105,6 +105,11 @@ html {
 }
 
 .ui5{
+  background-image: url("PUTRAJAYA.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
   background-color: #484b50;
   user-select: none;
   top: 750px;
