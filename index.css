@@ -77,35 +77,7 @@ html {
 }
 
 .ui2{
-  background-color: #484b50;
-  user-select: none;
-  top: 970px;
-  border: 0px;
-  box-shadow: 0 0px 10px rgb(0 0 0 / 0.2);
-  width: 750px;
-  height: 200px;
-  border-radius: 10px;
-  left: 50%;
-  position: absolute;
-  transform: translate(-50%, -50%);
-}
-
-.ui3{
-  background-color: #484b50;
-  user-select: none;
-  top: 1190px;
-  border: 0px;
-  box-shadow: 0 0px 10px rgb(0 0 0 / 0.2);
-  width: 750px;
-  height: 200px;
-  border-radius: 10px;
-  left: 50%;
-  position: absolute;
-  transform: translate(-50%, -50%);
-}
-
-.ui5{
-  background-image: url("PUTRAJAYA.png");
+  background-image: url("MYFS.png");
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -123,6 +95,33 @@ html {
   transform: translate(-50%, -50%);
 }
 
+.ui3{
+  background-color: #484b50;
+  user-select: none;
+  top: 970px;
+  border: 0px;
+  box-shadow: 0 0px 10px rgb(0 0 0 / 0.2);
+  width: 750px;
+  height: 200px;
+  border-radius: 10px;
+  left: 50%;
+  position: absolute;
+  transform: translate(-50%, -50%);
+}
+
+.ui4{
+  background-color: #484b50;
+  user-select: none;
+  top: 1190px;
+  border: 0px;
+  box-shadow: 0 0px 10px rgb(0 0 0 / 0.2);
+  width: 750px;
+  height: 200px;
+  border-radius: 10px;
+  left: 50%;
+  position: absolute;
+  transform: translate(-50%, -50%);
+}
 
 .uititle{
     user-select: none;
