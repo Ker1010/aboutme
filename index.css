@@ -294,3 +294,25 @@ html {
     height: 25px;
     background-color: rgb(0, 0, 0);
   }
+
+  .endtext{
+    user-select: none;
+    top: 1390px;
+    left: 50%;
+    position: absolute;
+    transform: translate(-50%, -50%);
+  }
+
+  .hide{
+    user-select: none;
+    color: #2C2F33;
+  }
+
+  .fbw{
+    user-select: none;
+    top: 1390px;
+    right: 100%;
+    position: absolute;
+    width: 26px;
+    height: 24px;
+  }
