@@ -33,7 +33,7 @@
   }
     clicks += 1;
 
-  if (clicks = 3) {
+  if (clicks > 2) {
     document.getElementById('bigpic').style.display='block';
     let id = null;
   const elem = document.getElementById("bigpic");
