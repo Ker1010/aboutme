@@ -39,7 +39,7 @@
   const elem = document.getElementById("bigpic");
   let pos = 0;
   clearInterval(id);
-  id = setInterval(frame, 0);
+  id = setInterval(frame, 1);
   function frame() {
     if (pos == 10000000) {
       clearInterval(id);

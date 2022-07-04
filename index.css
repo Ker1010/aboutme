@@ -1,6 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap');
 *{
-  overflow: auto;
   -webkit-user-drag: none;
   margin: 0;
   font-family: 'Poppins',sans-serif;
@@ -44,8 +43,11 @@ html {
 }
 
 .about2{
+    overflow: hidden;
+    max-height: 15%;
+    max-width: 35%;
     left: 50%;
-    top: 285px;
+    top: 290px;
     position: absolute;
     transform: translate(-50%, -50%);
     justify-content: center;
@@ -68,9 +70,9 @@ html {
     top: 530px;
     border: 0px;
     box-shadow: 0 0px 10px rgb(0 0 0 / 0.2);
-    width: 750px;
+    width: 45%;
     height: 200px;
-    border-radius: 10px;
+    border-radius: 5px;
     left: 50%;
     position: absolute;
     transform: translate(-50%, -50%);
@@ -87,9 +89,9 @@ html {
   top: 750px;
   border: 0px;
   box-shadow: 0 0px 10px rgb(0 0 0 / 0.2);
-  width: 750px;
+  width: 45%;
   height: 200px;
-  border-radius: 10px;
+  border-radius: 5px;
   left: 50%;
   position: absolute;
   transform: translate(-50%, -50%);
@@ -101,9 +103,9 @@ html {
   top: 970px;
   border: 0px;
   box-shadow: 0 0px 10px rgb(0 0 0 / 0.2);
-  width: 750px;
+  width: 45%;
   height: 200px;
-  border-radius: 10px;
+  border-radius: 5px;
   left: 50%;
   position: absolute;
   transform: translate(-50%, -50%);
@@ -115,9 +117,9 @@ html {
   top: 1190px;
   border: 0px;
   box-shadow: 0 0px 10px rgb(0 0 0 / 0.2);
-  width: 750px;
+  width: 45%;
   height: 200px;
-  border-radius: 10px;
+  border-radius: 5px;
   left: 50%;
   position: absolute;
   transform: translate(-50%, -50%);
@@ -130,14 +132,16 @@ html {
     top: 50%;
     padding: 10px;
     font-weight:bold;
+    width: 20%;
 }
 
 .uicontoen{
+    word-wrap: break-word;
     user-select: text;
     position: absolute;
     transform: translate(125px, -50%);
     top: 50%;
-    width: 625px;
+    width: 75%;
 }
 
 .infoicon{
@@ -150,10 +154,10 @@ html {
     box-shadow: 0 0px 10px rgb(0 0 0 / 0.2);
     user-select: none;
     position: absolute;
-    top: 20px;
+    top: 10px;
     right: 20px;
     background-color: rgb(0,0,0);
-    border-radius: 10px;
+    border-radius: 20px;
     width: 200px;
     height: 35px;
 }
@@ -188,6 +192,7 @@ html {
     overflow: auto;
     background-color: rgb(0,0,0);
     background-color: rgba(0,0,0,0.4);
+
   }
 
   .modal-content {
@@ -215,6 +220,7 @@ html {
     to {top:0; opacity:1}
   }
 
+
   .close {
     cursor: pointer;
     float: right;
@@ -233,6 +239,7 @@ html {
     border-radius: 15px;
       padding: 2px 16px;
       background-color: #484b50;
+
     }
   
   .modal-footer {
@@ -254,6 +261,7 @@ html {
     color: white;
     text-align: center;
     border-top-left-radius: 15px;
+    border-bottom-right-radius: 5px;
     position: absolute;
     bottom: 0px;
     right: 0px;
@@ -265,6 +273,7 @@ html {
   .statsstarted{
     text-align: center;
     border-top-left-radius: 15px;
+    border-bottom-right-radius: 5px;
     position: absolute;
     bottom: 0px;
     right: 0px;
@@ -276,6 +285,7 @@ html {
   .statsplan{
     text-align: center;
     border-top-left-radius: 15px;
+    border-bottom-right-radius: 5px;
     position: absolute;
     bottom: 0px;
     right: 0px;
@@ -287,6 +297,7 @@ html {
   .statsunknow{
     text-align: center;
     border-top-left-radius: 15px;
+    border-bottom-right-radius: 5px;
     position: absolute;
     bottom: 0px;
     right: 0px;
@@ -296,6 +307,7 @@ html {
   }
 
   .endtext{
+    color: white;
     user-select: none;
     top: 1390px;
     left: 50%;
@@ -309,10 +321,41 @@ html {
   }
 
   .fbw{
+    text-shadow: 0 0px 10px rgb(4 210 246 / 0.2);
     user-select: none;
     top: 1390px;
     right: 100%;
     position: absolute;
     width: 26px;
     height: 24px;
+  }
+
+  @media only screen and (max-width: 1250px) {
+    .ui{
+      overflow: hidden;
+      width: 60%;
+    }
+    .ui2{
+      overflow: hidden;
+      width: 60%;
+    }
+    .ui3{
+      overflow: hidden;
+      width: 60%;
+    }
+    .ui4{
+      overflow: hidden;
+      width: 60%;
+    }
+    .ui5{
+      overflow: hidden;
+      width: 60%;
+    }
+  }
+
+  @media only screen and (max-width: 430px) {
+    .about2{
+      overflow: scroll;
+      max-width: 75%;
+    }
   }
