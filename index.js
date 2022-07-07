@@ -46,7 +46,7 @@
     } else {
       pos++;
       elem.style.right = pos + 'px';
-    isAnimating = true;
+      isAnimating = true;
     setTimeout(function() {
       isAnimating = false;
   }, 10000000);

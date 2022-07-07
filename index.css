@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap');
 *{
+  word-wrap: break-word;
   -webkit-user-drag: none;
   margin: 0;
   font-family: 'Poppins',sans-serif;
@@ -207,7 +208,6 @@ html {
     -webkit-animation-duration: 0.4s;
     animation-name: animatetop;
     animation-duration: 0.4s
-
   }
 
   @-webkit-keyframes animatetop {
@@ -229,21 +229,21 @@ html {
   }
   
   .modal-header {
-    border-top-left-radius: 15px;
-    border-top-right-radius: 15px;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
     padding: 2px 16px;
     background-color: #484b50;
   }
   
   .modal-body {
-    border-radius: 15px;
+    border-radius: 5px;
       padding: 2px 16px;
       background-color: #484b50;
 
     }
   
   .modal-footer {
-    border-radius: 15px;
+    border-radius: 5px;
     padding: 2px 16px;
     background-color: #484b50;
   }
@@ -309,7 +309,7 @@ html {
   .endtext{
     color: white;
     user-select: none;
-    top: 1390px;
+    top: 1150px;
     left: 50%;
     position: absolute;
     transform: translate(-50%, -50%);
@@ -321,41 +321,94 @@ html {
   }
 
   .fbw{
-    text-shadow: 0 0px 10px rgb(4 210 246 / 0.2);
+    text-shadow: 0 0px 10px rgb(4 210 246 / 1);
     user-select: none;
-    top: 1390px;
+    top: 110px;
     right: 100%;
     position: absolute;
     width: 26px;
     height: 24px;
   }
 
+  .waring{
+    backdrop-filter: blur(5px);
+    display: none;
+    position: fixed;
+    z-index: 1;
+    padding-top: 100px;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    background-color: rgb(0,0,0);
+    background-color: rgba(0,0,0,0.4);
+  }
+
+  .waringui{
+    border-bottom-left-radius: 5px;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    position: absolute;
+    background-color: #484b50;
+    margin: auto;
+    padding: 0;
+    width: 80%;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2),0 6px 20px 0 rgba(0,0,0,0.19);
+  }
+
+  .warringtitle{
+    font-weight: bold;
+    text-align: center;
+  }
+
+  .warringtext{
+    text-align: center;
+  }
+
+  .know{
+    font-size: 85%;
+    border-bottom-right-radius: 5px;
+    border-bottom-left-radius: 5px;
+    text-align: center;
+    position: absolute;
+    right: 0px;
+    width: 20%;
+    height: 25px;
+    background-color: red;
+    user-select: none;
+  }
+
   @media only screen and (max-width: 1250px) {
     .ui{
       overflow: hidden;
-      width: 60%;
+      width: 75%;
     }
     .ui2{
       overflow: hidden;
-      width: 60%;
+      width: 75%;
     }
     .ui3{
       overflow: hidden;
-      width: 60%;
+      width: 75%;
     }
     .ui4{
       overflow: hidden;
-      width: 60%;
+      width: 75%;
     }
     .ui5{
       overflow: hidden;
-      width: 60%;
+      width: 75%;
     }
   }
 
-  @media only screen and (max-width: 430px) {
+  @media only screen and (max-width: 500px) {
     .about2{
       overflow: scroll;
       max-width: 75%;
+      max-height: 35%;
     }
   }
