@@ -415,28 +415,28 @@ html {
     box-shadow: 0 0px 10px rgb(0 0 0 / 0.2);
     position: absolute;
     top: 10px;
-    right: 20px;
+    right: 200px;
     color: #fff;
 }
 .selfbox2 a{
   box-shadow: 0 0px 10px rgb(0 0 0 / 0.2);
   position: absolute;
   top: 10px;
-  right: 80px;
+  right: 140px;
   color: #fff;
 }
 .selfbox3 a{
   box-shadow: 0 0px 10px rgb(0 0 0 / 0.2);
   position: absolute;
   top: 10px;
-  right: 140px;
+  right: 80px;
   color: #fff;
 }
 .selfbox4 a{
   box-shadow: 0 0px 10px rgb(0 0 0 / 0.2);
   position: absolute;
   top: 10px;
-  right: 200px;
+  right: 20px;
   color: #fff;
 }
 
