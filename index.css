@@ -5,7 +5,7 @@
   -webkit-user-drag: none;
   margin: 0;
   font-family: 'Poppins',sans-serif;
-}
+  }
 
 html {
   background-color: #2C2F33;
@@ -24,10 +24,10 @@ html {
 }
 
 .logo{
+    border-radius: 50%;
     cursor: pointer;
     user-select: none;
     box-shadow: 0 0px 10px rgb(0 0 0 / 0.2);
-    border-radius: 50%;
     top: 150px;
     left: 50%;
     position: absolute;
@@ -138,37 +138,11 @@ html {
 }
 
 .uicontoen{
-    word-wrap: break-word;
     user-select: text;
     position: absolute;
     transform: translate(125px, -50%);
     top: 50%;
     width: 75%;
-}
-
-.infoicon{
-    width:25px;
-    height: 25px;
-    user-select: none;
-}
-
-
-
-.selficon{
-    -webkit-user-drag: none;
-    user-select: none;
-    width: 35px;
-    height: 35px;
-}
-
-.selficonyotu{
-    -webkit-user-drag: none;
-    position: absolute;
-    transform: translate(5px, -50%);
-    top: 50%;
-    user-select: none;
-    width: 35px;
-    height: 25px;
 }
 
 .modal {
@@ -319,45 +293,6 @@ html {
     position: absolute;
     width: 26px;
     height: 24px;
-  }
-
-  .waring{
-    backdrop-filter: blur(5px);
-    display: none;
-    position: fixed;
-    z-index: 1;
-    padding-top: 100px;
-    left: 0;
-    top: 0;
-    width: 100%;
-    height: 100%;
-    overflow: auto;
-    background-color: rgb(0,0,0);
-    background-color: rgba(0,0,0,0.4);
-  }
-
-  .waringui{
-    border-bottom-left-radius: 5px;
-    border-top-left-radius: 5px;
-    border-top-right-radius: 5px;
-    position: absolute;
-    background-color: #484b50;
-    margin: auto;
-    padding: 0;
-    width: 80%;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2),0 6px 20px 0 rgba(0,0,0,0.19);
-  }
-
-  .warringtitle{
-    font-weight: bold;
-    text-align: center;
-  }
-
-  .warringtext{
-    text-align: center;
   }
 
   .know{
