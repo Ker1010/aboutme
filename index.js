@@ -25,36 +25,3 @@
         modal.style.display = "none";
       }
     }
-
-    var clicks = 0;
-    var isAnimating = false;
-
-  function onClick() {
-    if (isAnimating) {
-      return;
-  }
-    clicks += 1;
-
-  if (clicks > 2) {
-    document.getElementById('bigpic').style.display='block';
-    let id = null;
-  const elem = document.getElementById("bigpic");
-  let pos = 0;
-  clearInterval(id);
-  id = setInterval(frame, 1);
-  function frame() {
-    if (pos == 10000000) {
-      clearInterval(id);
-    } else {
-      pos++;
-      elem.style.right = pos + 'px';
-      isAnimating = true;
-    setTimeout(function() {
-      isAnimating = false;
-  }, 10000000);
-    }
-
-
-  }
-  }
-};

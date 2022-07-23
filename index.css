@@ -1,6 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap');
 *{
-  transition: all 0.5s ease;
   word-wrap: break-word;
   -webkit-user-drag: none;
   margin: 0;
@@ -49,7 +48,7 @@ html {
     max-height: 15%;
     max-width: 35%;
     left: 50%;
-    top: 290px;
+    top: 270px;
     position: absolute;
     transform: translate(-50%, -50%);
     justify-content: center;
@@ -67,6 +66,7 @@ html {
 }
 
 .ui{
+  transition: all 0.5s ease;
     background-color: #484b50;
     user-select: none;
     top: 530px;
@@ -81,6 +81,7 @@ html {
 }
 
 .ui2{
+  transition: all 0.5s ease;
   background-image: url("MYFS.png");
   background-position: center;
   background-repeat: no-repeat;
@@ -100,6 +101,7 @@ html {
 }
 
 .ui3{
+  transition: all 0.5s ease;
   background-color: #484b50;
   user-select: none;
   top: 970px;
@@ -114,6 +116,7 @@ html {
 }
 
 .ui4{
+  transition: all 0.5s ease;
   background-color: #484b50;
   user-select: none;
   top: 1190px;
@@ -213,10 +216,6 @@ html {
     background-color: #484b50;
   }
 
-  .setup{
-    font-weight:bold;
-  }
-
   .setuptitile{
     user-select: none;
     text-shadow: 0 0px 10px rgb(0 0 0 / 0.2);
@@ -283,16 +282,6 @@ html {
   .hide{
     user-select: none;
     color: #2C2F33;
-  }
-
-  .fbw{
-    text-shadow: 0 0px 10px rgb(4 210 246 / 1);
-    user-select: none;
-    top: 1160px;
-    right: 100%;
-    position: absolute;
-    width: 26px;
-    height: 24px;
   }
 
   .know{
