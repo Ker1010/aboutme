@@ -255,7 +255,7 @@ html {
     top: 10px;
     display: inline-block;
     list-style-type: none;
-    position: fixed;
+    position: absolute;
 }
 
   .hover-fx {
