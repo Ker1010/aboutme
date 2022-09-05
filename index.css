@@ -16,6 +16,7 @@ html {
 }
 
 .title{
+  top: 10px;
     user-select: none;
     text-shadow: 0 0px 10px rgb(0 0 0 / 0.2);
     padding: 0px;
@@ -48,7 +49,7 @@ html {
     max-height: 15%;
     max-width: 35%;
     left: 50%;
-    top: 270px;
+    top: 290px;
     position: absolute;
     transform: translate(-50%, -50%);
     justify-content: center;
@@ -70,7 +71,7 @@ html {
     transition: all 0.5s ease;
     background-color: #484b50;
     user-select: none;
-    top: 450px;
+    top: 425px;
     border: 0px;
     box-shadow: 0 0px 10px rgb(0 0 0 / 0.2);
     width: 45%;
@@ -93,7 +94,7 @@ html {
 
 .uicontoen{
     user-select: text;
-    position: absolute;
+    position: fixed;
     transform: translate(125px, -50%);
     top: 50%;
     width: 75%;
@@ -127,7 +128,9 @@ html {
     animation-name: animatetop;
     animation-duration: 0.4s
   }
+  
 
+  
   @-webkit-keyframes animatetop {
     from {top:-300px; opacity:0} 
     to {top:0; opacity:1}
@@ -137,21 +140,20 @@ html {
     from {top:-300px; opacity:0}
     to {top:0; opacity:1}
   }
-
-
   .close {
     cursor: pointer;
     float: right;
     font-size: 28px;
     font-weight: bold;
   }
-  
+
   .modal-header {
     border-top-left-radius: 5px;
     border-top-right-radius: 5px;
     padding: 2px 16px;
     background-color: #484b50;
   }
+
   
   .modal-body {
     border-radius: 5px;
@@ -181,7 +183,7 @@ html {
     right: 0px;
     width: 100px;
     height: 25px;
-    background-color: green;
+    background-color: #4e97d6;
   }
 
   .statsstarted{
@@ -193,7 +195,7 @@ html {
     right: 0px;
     width: 100px;
     height: 25px;
-    background-color: red;
+    background-color: #88a38b;
   }
 
   .statsplan{
@@ -205,7 +207,7 @@ html {
     right: 0px;
     width: 100px;
     height: 25px;
-    background-color: salmon;
+    background-color: #ecc57d;
   }
 
   .statsunknow{
@@ -217,11 +219,11 @@ html {
     right: 0px;
     width: 100px;
     height: 25px;
-    background-color: rgb(0, 0, 0);
+    background-color: #7f7f7f;
   }
 
   .endtext{
-    top: 400px;
+    top: 370px;
     color: white;
     user-select: none;
     text-align: center;
@@ -250,51 +252,56 @@ html {
     }
   }
 
-.selfbox{
-    right: 20px;
-    top: 10px;
-    display: inline-block;
-    list-style-type: none;
-    position: absolute;
+.hover-fx {
+  position: relative;
+  user-select: none;
+  font-size: 2rem;
+  display: inline-block;
+  cursor: pointer;
+  width: 50px;
+  border-radius: 50%;
+  text-align: center;
+  color: #fff;
+  box-shadow: 0 0px 10px rgb(0 0 0 / 0.2);
+  background-color: rgba(255,255,255,0.1);
+  transition: 300ms;
+  }
+
+.hover-fx:hover{
+  background-color: #fff;
+  color: #151515;
+  }
+
+.hover-fx:after{
+  pointer-events: none;
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  border-radius: 50%;
+  content: '';
+  box-sizing: content-box;
+  box-shadow: 0 0 0 3px #fff;
+  top: 0;
+  left: 0;
+  opacity: 0;
+  transition: 300ms;
+  }
+
+.hover-fx:hover:after{
+  opacity: 1;
+  transform: scale(1.1);
+  }
+
+.bar{
+  position: relative;
+  resize: none;
+  margin-right: 5px;
+  user-select: none;
+  display: inline-block;
 }
 
-  .hover-fx {
-    margin: 5px;
-    font-size: 2rem;
-    display: inline-block;
-    cursor: pointer;
-    width: 50px;
-    height: 50px;
-    border-radius: 50%;
-    text-align: center;
-    position: relative;
-    color: #fff;
-    box-shadow: 0 0px 10px rgb(0 0 0 / 0.2);
-    background-color: rgba(255,255,255,0.1);
-    transition: 300ms;
-  }
-
-  .hover-fx:hover{
-    background-color: #fff;
-    color: #151515;
-  }
-
-  .hover-fx:after{
-    pointer-events: none;
-    position: absolute;
-    width: 100%;
-    height: 100%;
-    border-radius: 50%;
-    content: '';
-    box-sizing: content-box;
-    box-shadow: 0 0 0 3px #fff;
-    top: 0;
-    left: 0;
-    opacity: 0;
-    transition: 300ms;
-  }
-
-  .hover-fx:hover:after{
-    opacity: 1;
-    transform: scale(1.1);
-  }
+.tarbar{
+  position: absolute;
+  right: 10px;
+  top: 10px;
+}
