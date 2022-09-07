@@ -2,6 +2,7 @@
 *{
   word-wrap: break-word;
   -webkit-user-drag: none;
+  -webkit-tap-highlight-color: transparent;
   margin: 0;
   font-family: 'Poppins',sans-serif;
   }
@@ -17,43 +18,43 @@ html {
 
 .title{
   top: 10px;
-    user-select: none;
-    text-shadow: 0 0px 10px rgb(0 0 0 / 0.2);
-    padding: 0px;
-    padding-left:20px;
+  user-select: none;
+  text-shadow: 0 0px 10px rgb(0 0 0 / 0.2);
+  padding: 0px;
+  padding-left:20px;
 }
 
 .logo{
-    border-radius: 50%;
-    cursor: pointer;
-    user-select: none;
-    box-shadow: 0 0px 10px rgb(0 0 0 / 0.2);
-    top: 150px;
-    left: 50%;
-    position: absolute;
-    transform: translate(-50%, -50%);
+  border-radius: 50%;
+  cursor: pointer;
+  user-select: none;
+  box-shadow: 0 0px 10px rgb(0 0 0 / 0.2);
+  top: 150px;
+  left: 50%;
+  position: absolute;
+  transform: translate(-50%, -50%);
 }
 
 .about{
-    user-select: none;
-    top: 225px;
-    left: 50%;
-    position: absolute;
-    transform: translate(-50%, -50%);
-    justify-content: center;
-    align-items: center;
+  user-select: none;
+  top: 225px;
+  left: 50%;
+  position: absolute;
+  transform: translate(-50%, -50%);
+  justify-content: center;
+  align-items: center;
 }
 
 .about2{
-    overflow: hidden;
-    max-height: 15%;
-    max-width: 35%;
-    left: 50%;
-    top: 290px;
-    position: absolute;
-    transform: translate(-50%, -50%);
-    justify-content: center;
-    align-items: center;
+  overflow: hidden;
+  max-height: 15%;
+  max-width: 35%;
+  left: 50%;
+  top: 290px;
+  position: absolute;
+  transform: translate(-50%, -50%);
+  justify-content: center;
+  align-items: center;
 }
 
 .about3{
@@ -67,19 +68,19 @@ html {
 }
 
 .ui{
-    margin-top: 25px;
-    transition: all 0.5s ease;
-    background-color: #484b50;
-    user-select: none;
-    top: 425px;
-    border: 0px;
-    box-shadow: 0 0px 10px rgb(0 0 0 / 0.2);
-    width: 45%;
-    height: 200px;
-    border-radius: 5px;
-    left: 50%;
-    position: relative;
-    transform: translate(-50%, -50%);
+  margin-top: 25px;
+  transition: all 0.5s ease;
+  background-color: #484b50;
+  user-select: none;
+  top: 425px;
+  border: 0px;
+  box-shadow: 0 0px 10px rgb(0 0 0 / 0.2);
+  width: 45%;
+  height: 200px;
+  border-radius: 5px;
+  left: 50%;
+  position: relative;
+  transform: translate(-50%, -50%);
 }
 
 .uititle{
@@ -128,9 +129,7 @@ html {
     animation-name: animatetop;
     animation-duration: 0.4s
   }
-  
 
-  
   @-webkit-keyframes animatetop {
     from {top:-300px; opacity:0} 
     to {top:0; opacity:1}
@@ -140,7 +139,9 @@ html {
     from {top:-300px; opacity:0}
     to {top:0; opacity:1}
   }
+  
   .close {
+    user-select: none;
     cursor: pointer;
     float: right;
     font-size: 28px;
